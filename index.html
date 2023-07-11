@@ -29,7 +29,11 @@
     
     header {
 /*      background-color: #A67C52;*/
-      margin-bottom: 30px;
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     header img {
@@ -39,7 +43,18 @@
       border-radius: 50%;
     }
 
+     .social-links {
+      margin-top: 20px;
+    }
     
+    .social-links a {
+      display: inline-block;
+      margin-right: 10px;
+      text-decoration: none;
+      color: #333;
+      font-size: 20px;
+    }
+
     .biografia-section {
       background-color: #FFF2CC;
       padding: 20px;
@@ -86,6 +101,11 @@
     <img src="https://images.unsplash.com/photo-1557701197-2f99da0922dd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1331&q=80" alt="Logo">
     <h1>Jesús García Martínez</h1>
     <p>Ingeniero en Electrónica</p>
+    <div class="social-links">
+      <a href="https://linkedin.com/in/jesús-garcía-martínez-90892158" target="_blank">LinkedIn</a>
+      <a href="https://twitter.com/jesusgm" target="_blank">Twitter</a>
+      <a href="https://www.instagram.com/jesusgarciamartinez" target="_blank">Instagram</a>
+    </div>
   </header>
   
   <section class="biografia-section">
