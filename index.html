@@ -1,36 +1,130 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Mi primera página web</title>
-  <meta charset="UTF-8">
+  <title>Mi Portafolio Personal</title>
   <style>
     body {
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 20px;
     }
-
+    
     h1 {
       color: #333;
+      font-size: 24px;
+      margin-bottom: 10px;
     }
-
+    
+    h2 {
+      color: #555;
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+    
     p {
       color: #666;
+      font-size: 16px;
+      line-height: 1.5;
+    }
+    
+    header {
+/*      background-color: #A67C52;*/
+      margin-bottom: 30px;
     }
 
-    .container {
-      max-width: 600px;
-      margin: 0 auto;
-      background-color: #f5f5f5;
+    header img {
+      width: 200px;
+      max-width: 100%;
+      height: auto;
+      border-radius: 50%;
+    }
+
+    
+    .biografia-section {
+      background-color: #FFF2CC;
       padding: 20px;
       border-radius: 5px;
+    }
+    
+    .experiencia-section {
+      background-color: #FFE599;
+      padding: 20px;
+      border-radius: 5px;
+    }
+    
+    .educacion-section {
+      background-color: #FFD966;
+      padding: 20px;
+      border-radius: 5px;
+    }
+    
+    .habilidades-section {
+      background-color: #FFC234;
+      padding: 20px;
+      border-radius: 5px;
+    }
+    
+    .contacto-section {
+      background-color: #FFF2CC;
+      padding: 20px;
+      border-radius: 5px;
+    }
+    
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+    }
+    
+    ul li {
+      margin-bottom: 5px;
     }
   </style>
 </head>
 <body>
-  <div class="container">
-    <h1>Bienvenido a mi página web</h1>
-    <p>Esta es una página web básica creada con HTML y CSS.</p>
-  </div>
+  <header>
+    <img src="https://images.unsplash.com/photo-1557701197-2f99da0922dd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1331&q=80" alt="Logo">
+    <h1>Jesús García Martínez</h1>
+    <p>Ingeniero en Electrónica</p>
+  </header>
+  
+  <section class="biografia-section">
+    <h2>Biografía</h2>
+    <p>Soy un ingeniero en electrónica con experiencia en el desarrollo de soluciones tecnológicas. Actualmente, trabajo en el departamento de mantenimiento de Tubacero, donde destaco por mi capacidad para crear sistemas innovadores. Desarrollé un sistema de adquisición de datos de soldadura y tengo habilidades en diseño de diagramas eléctricos y electrónicos, PCB, programación de microcontroladores y diseño de gabinetes de control y fuerza en la industria. Busco oportunidades desafiantes en programación y electrónica para impulsar la innovación tecnológica.</p>
+  </section>
+  
+  <section class="experiencia-section">
+    <h2>Experiencia</h2>
+    <h3>Tubacero - Departamento de Mantenimiento</h3>
+    <h4>Ingeniero de Desarrollo de Sistemas</h4>
+    <p>Desarrollé un sistema de adquisición de datos de soldadura utilizando PHP, un servidor Apache y APIs. También diseñé una aplicación de escritorio en C# para generar informes en Excel y una aplicación para el registro de tubos. Además, he trabajado en el diseño de diagramas eléctricos y electrónicos, PCB de 2 capas, programación de microcontroladores Atmel y diseño de gabinetes de control y fuerza.</p>
+  </section>
+  
+  <section class="educacion-section">
+    <h2>Educación</h2>
+    <h3>Universidad XYZ</h3>
+    <p>Ingeniería en Electrónica</p>
+  </section>
+  
+  <section class="habilidades-section">
+    <h2>Habilidades</h2>
+    <ul>
+      <li>Programación: PHP, C#, JavaScript</li>
+      <li>Diseño de diagramas eléctricos: AutoCAD</li>
+      <li>Diseño de PCB: Eagle</li>
+      <li>Programación de microcontroladores: Atmel</li>
+      <li>Diseño de gabinetes de control y fuerza</li>
+    </ul>
+  </section>
+  
+  <section class="contacto-section">
+    <h2>Contacto</h2>
+    <p>No dudes en contactarme para oportunidades laborales o consultas:</p>
+    <div class="contact-info">
+      <p><strong>Email:</strong> jesus@example.com</p>
+      <p><strong>Teléfono:</strong> +1234567890</p>
+      <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/jesusgarciamartinez">linkedin.com/in/jesusgarciamartinez</a></p>
+    </div>
+  </section>
 </body>
 </html>
